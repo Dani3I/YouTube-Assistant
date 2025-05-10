@@ -294,7 +294,7 @@ setTimeout(function() {
     /* --------------- */
 
     function clickSkipAdsButton() {
-      const skipButton = document.querySelector('.ytp-ad-skip-button');
+      const skipButton = document.querySelector('.ytp-skip-ad-button');
       if (skipButton) {
         skipButton.click();
       }
